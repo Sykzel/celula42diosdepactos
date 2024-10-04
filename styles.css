@@ -1,0 +1,81 @@
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: blue;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-image:url(img/fondo.png);
+    max-width: 300px; /* Ancho máximo */
+    width: 100%; /* Asegura que el ancho sea responsivo */
+}
+.box1{
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-left: 50%;
+    align-content: center;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-image:url(img/fondo.png);
+    max-width: 300px; /* Ancho máximo */
+    width: 100%; /* Asegura que el ancho sea responsivo */
+}
+
+body {background-color: #e5e5f7;
+   
+    background-image:  linear-gradient(#444cf7 2px, transparent 2px), linear-gradient(90deg, #444cf7 2px, transparent 2px), linear-gradient(#444cf7 1px, transparent 1px), linear-gradient(90deg, #444cf7 1px, #e5e5f7 1px);
+    background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+.body2 {
+    background-color: #e5e5f7;
+opacity: 1;
+background-image:  radial-gradient(#444cf7 1px, transparent 1px), radial-gradient(#444cf7 1px, #e5e5f7 1px);
+background-size: 40px 40px;
+background-position: 0 0,20px 20px;
+}
+
+.imprimera {
+width: 90%;
+height: 60%;
+}
